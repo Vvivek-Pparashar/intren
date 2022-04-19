@@ -14,11 +14,10 @@
   z-index: 2;
 }
 
-.vivek{
+.line{
   position: absolute;
   height: 10px;
   background-color: azure;
-  transform: rotate(30deg);
   transform-origin: left;
   z-index: 0;
 }

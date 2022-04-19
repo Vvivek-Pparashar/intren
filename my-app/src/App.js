@@ -49,7 +49,7 @@ console.log(data)
     const leftt =(data[i].left - data[i-1].left)
     const  angleDeg = Math.atan2(topp, leftt) * 180 / Math.PI;
 
-    arr.push(<div className='vivek' style={{
+    arr.push(<div className='line' style={{
       width : Math.sqrt(leftt**2 + topp**2),
       top: data[i-1].top + 15,
       left: data[i-1].left+15, 
